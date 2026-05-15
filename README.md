@@ -29,6 +29,7 @@ PixSearch is an end-to-end Content-Based Image Retrieval (CBIR) visual search en
 ```bash
 git clone [https://github.com/YOUR_GITHUB_USERNAME/pixsearch.git](https://github.com/YOUR_GITHUB_USERNAME/pixsearch.git)
 cd pixsearch
+```
 2. Set up the environment
 Bash
 python -m venv .venv
