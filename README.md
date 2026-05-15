@@ -30,24 +30,28 @@ PixSearch is an end-to-end Content-Based Image Retrieval (CBIR) visual search en
 git clone [https://github.com/YOUR_GITHUB_USERNAME/pixsearch.git](https://github.com/YOUR_GITHUB_USERNAME/pixsearch.git)
 cd pixsearch
 ```
-2. Set up the environment
-Bash
+### 2. Set up the environment
+```Bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 pip install -r requirements.txt
-3. Build an Index (Example using CLIP)
+```
+### 3. Build an Index (Example using CLIP)
 Note: Ensure you have your image dataset inside a data/ folder.
-Bash
+```Bash
 python scripts/build_index.py \
   --data data/corel1k \
   --backend clip \
   --out indexes/clip_demo
-4. Run the Application
-Bash
+```
+### 4. Run the Application
+```Bash
 PYTHONPATH=. streamlit run app.py
-👨‍💻 Author
+```
+### 👨‍💻 Author
 Muhammad Haroon
 B.S. Artificial Intelligence
-SZABIST Islamabad ## 📄 License
+SZABIST Islamabad 
+## 📄 License
 This project is licensed under the MIT License.
 
