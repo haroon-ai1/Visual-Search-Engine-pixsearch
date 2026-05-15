@@ -9,7 +9,9 @@ Markdown
 
 PixSearch is an end-to-end Content-Based Image Retrieval (CBIR) visual search engine. It compares both classical computer vision techniques and modern deep learning models for feature extraction, combined with sub-millisecond nearest-neighbor vector search.
 
-**[🚀 Try the Live Demo on Hugging Face](https://huggingface.co/spaces/haroon8124/pixsearch)** ## ✨ Key Features
+**[🚀 Try the Live Demo on Hugging Face](https://huggingface.co/spaces/haroon8124/pixsearch)** 
+
+## ✨ Key Features
 
 * **Multi-Modal Search (CLIP):** Text-to-image and image-to-image search using OpenAI's CLIP (ViT-B/32) zero-shot capabilities.
 * **Deep Feature Extraction:** Image-to-image retrieval using frozen features from a pre-trained ResNet-50 backbone.
