@@ -1,5 +1,3 @@
-Here is the complete file. You can copy this exact block and paste it directly into your README.md file.
-Markdown
 # 🔎 PixSearch: Content-Based Image Retrieval System
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
